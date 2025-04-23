@@ -66,6 +66,7 @@ body {
   a:hover {
     text-decoration: underline;
   }
+
   .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
@@ -82,6 +83,7 @@ body {
     vertical-align: middle;
     margin-right: 0.5rem;
   }
+  
   /* Responsive para móviles */
   @media screen and (max-width: 768px) {
     body {

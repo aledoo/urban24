@@ -57,15 +57,6 @@ body {
     margin: 0.5rem 0;
     display: inline-block;
   }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
 
   .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
@@ -83,7 +74,46 @@ body {
     vertical-align: middle;
     margin-right: 0.5rem;
   }
+  .address {
+    display: block;
+
+  }
+  .contact-item {
+    display: flex;
+    align-items: flex-start; /* Alinea arriba el texto */
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
   
+  .contact-item .material-symbols-outlined {
+    font-size: 24px;
+    margin-top: 2px; /* Ajuste fino si el icono queda muy alto */
+  }
+  
+  .contact-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    line-height: 1.4;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  
+
   /* Responsive para móviles */
   @media screen and (max-width: 768px) {
     body {
